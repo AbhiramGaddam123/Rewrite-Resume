@@ -1,7 +1,18 @@
 import os
 import time
+import re
 from google import genai
 from google.genai import errors
+
+def clean_latex(text):
+    """
+    Removes Markdown code blocks (```latex ... ```) and leading/trailing whitespace.
+    This prevents the 'LaTeX Error: Missing \begin{document}' caused by backticks.
+    """
+    # Remove ```latex (case-insensitive) and the closing ```
+    text = re.sub(r"```latex", "", text, flags=re.IGNORECASE)
+    text = re.sub(r"```", "", text)
+    return text.strip()
 
 def tailor_resume():
     # Initialize the Gemini Client
@@ -14,18 +25,20 @@ def tailor_resume():
         with open("job_description.txt", "r") as f:
             job_description = f.read()
     except FileNotFoundError as e:
-        print(f"Error: Required file missing - {e}")
+        print(f"❌ Error: Required file missing - {e}")
         return
 
-    # The Prompt
+    # Updated Prompt with stricter formatting rules
     prompt = f"""
     You are an expert resume writer. Below is a LaTeX resume template and a Job Description.
     Tailor the 'Skills' and 'Experience' sections of the resume to match the Job Description.
     
     STRICT RULES:
     1. Output ONLY the raw LaTeX code. 
-    2. Do NOT change the LaTeX preamble or formatting commands.
-    3. Ensure all LaTeX tags (like \\item, \\section, \\textbf) remain intact.
+    2. DO NOT use Markdown code blocks (No backticks like ```).
+    3. Start the output immediately with \\documentclass or the first line of the provided template.
+    4. Do NOT change the LaTeX preamble or formatting commands.
+    5. Ensure all LaTeX tags (like \\item, \\section, \\textbf) remain intact.
     
     RESUME TEMPLATE:
     {resume_content}
@@ -41,21 +54,24 @@ def tailor_resume():
         try:
             print(f"--- Attempt {attempt}/{max_tries}: Generating tailored resume ---")
             
-            # Using the 2026 workhorse model
+            # Using the Gemini model
             response = client.models.generate_content(
                 model="gemini-2.5-flash", 
                 contents=prompt
             )
 
-            # Save the new LaTeX file if successful
+            # --- THE FIX: Clean the response text before saving ---
+            final_latex = clean_latex(response.text)
+
+            # Save the cleaned LaTeX file
             with open("tailored_resume.tex", "w") as f:
-                f.write(response.text.strip())
+                f.write(final_latex)
             
-            print("✅ Success! Resume tailored and saved to tailored_resume.tex")
-            return  # Exit the function on success
+            print("✅ Success! Cleaned LaTeX saved to tailored_resume.tex")
+            return  # Exit on success
 
         except errors.APIError as e:
-            # Retryable errors: 429 (Quota), 500, 502, 503, 504 (Server Overload)
+            # Retryable errors: 429 (Quota), 500, 502, 503, 504
             if e.code in [429, 500, 502, 503, 504]:
                 if attempt < max_tries:
                     print(f"⚠️ Service busy or limit reached (Error {e.code}). Retrying in {retry_delay}s...")
@@ -64,7 +80,7 @@ def tailor_resume():
                     print("❌ Max retries reached. Service is still unavailable.")
                     raise e
             else:
-                # Non-retryable errors (e.g., 400 Bad Request, 401 Unauthorized)
+                # Non-retryable errors
                 print(f"🛑 Permanent Error encountered ({e.code}): {e.message}")
                 raise e
 
