@@ -1,0 +1,35 @@
+name: Tailor and Compile Resume
+on:
+  push:
+    paths:
+      - 'job_description.txt' # Only runs when you update the JD
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Tailoring Script
+        run: python tailor_resume.py
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+
+      - name: Compile LaTeX to PDF
+        uses: xu-cheng/latex-action@v4
+        with:
+          root_file: tailored_resume.tex
+
+      - name: Upload PDF Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Tailored-Resume
+          path: tailored_resume.pdf
