@@ -1,14 +1,23 @@
-Job Description
-Works in the area of Software Engineering, which encompasses the development, maintenance and optimization of software solutions/applications.
-1. Applies scientific methods to analyse and solve software engineering problems.
-2. He/she is responsible for the development and application of software engineering practice and knowledge, in research, design, development and maintenance.
-3. His/her work requires the exercise of original thought and judgement and the ability to supervise the technical and administrative work of other software engineers.
-4. The software engineer builds skills and expertise of his/her software engineering discipline to reach standard software engineer skills expectations for the applicable role, as defined in Professional Communities.
-5. The software engineer collaborates and acts as team player with other software engineers and stakeholders.
+Function: Software Engineering → Frontend Development
 
-Works in the area of Software Engineering, which encompasses the development, maintenance and optimization of software solutions/applications. 1. Applies scientific methods to analyse and solve software engineering problems. 2. He/she is responsible for the development and application of software engineering practice and knowledge, in research, design, development and maintenance. 3. His/her work requires the exercise of original thought and judgement and the ability to supervise the technical and administrative work of other software engineers. 4. The software engineer builds skills and expertise of his/her software engineering discipline to reach standard software engineer skills expectations for the applicable role, as defined in Professional Communities. 5. The software engineer collaborates and acts as team player with other software engineers and stakeholders.
-Job Description - Grade Specific
-Has more than a year of relevant work experience. Solid understanding of programming concepts, software design and software development principles. Consistently works to direction with minimal supervision, producing accurate and reliable results. Individuals are expected to be able to work on a range of tasks and problems, demonstrating their ability to apply their skills and knowledge. Organises own time to deliver against tasks set by others with a mid term horizon. Works co-operatively with others to achieve team goals and has a direct and positive impact on project performance and make decisions based on their understanding of the situation, not just the rules.
+CSSHTMLJavaScript
+Responsibilities:
+
+Build well-structured UI components in TypeScript under guidance; write unit tests and fix bugs.
+Follow accessibility, performance, and security checklists; assist with SSR and routing tasks.
+Help maintain documentation, Storybook entries, and design tokens.
+Support localization tasks and translation updates.
+Participate in code reviews, grooming, and demos; pair program to grow skills.
+
+
+Requirements:
+
+Strong foundations in JavaScript/TypeScript, HTML, and CSS; eagerness to learn SSR concepts.
+Understanding of Git, testing basics, and web performance fundamentals.
+Collaborative, growth mindset with attention to detail.
+0-2 years of experience or relevant projects/internships.
+Portfolio or GitHub showing component work and testing basics.
+Exposure to Cypress/Vitest, Tailwind, accessibility practices, or microfrontends.
 
 
 Instructions from User : Make sure the Resume is ATS Friendly
