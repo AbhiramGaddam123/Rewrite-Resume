@@ -1,23 +1,29 @@
-Function: Software Engineering → Frontend Development
+We are hiring  Frontend Developer  for our 𝑭𝒓𝒐𝒏𝒕𝒍𝒊𝒏𝒆𝒔 𝑬𝒅𝒖𝑻𝒆𝒄𝒉 𝑷𝒓𝒊𝒗𝒂𝒕𝒆 𝑳𝒊𝒎𝒊𝒕𝒆𝒅.
 
-CSSHTMLJavaScript
-Responsibilities:
-
-Build well-structured UI components in TypeScript under guidance; write unit tests and fix bugs.
-Follow accessibility, performance, and security checklists; assist with SSR and routing tasks.
-Help maintain documentation, Storybook entries, and design tokens.
-Support localization tasks and translation updates.
-Participate in code reviews, grooming, and demos; pair program to grow skills.
-
-
-Requirements:
-
-Strong foundations in JavaScript/TypeScript, HTML, and CSS; eagerness to learn SSR concepts.
-Understanding of Git, testing basics, and web performance fundamentals.
-Collaborative, growth mindset with attention to detail.
-0-2 years of experience or relevant projects/internships.
-Portfolio or GitHub showing component work and testing basics.
-Exposure to Cypress/Vitest, Tailwind, accessibility practices, or microfrontends.
+Position: Frontend Developer
+Experience: Min 0-1+ years in Frontend developer
+Location: Somajiguda, Hyderabad.
+Work Type: WFO
+Job Type: Full-time
+Timings: 10am-7pm 
+Working Days: 6 days, Sunday will be week off
 
 
-Instructions from User : Make sure the Resume is ATS Friendly
+Key Responsibilities
+Develop and maintain responsive web interfaces using HTML, CSS, JavaScript, and React.js.
+Optimize application performance for maximum speed and scalability.
+Write clean, maintainable, and reusable code following best practices.
+Integrate APIs and ensure smooth data flow between frontend and backend systems.
+Troubleshoot and debug frontend-related issues.
+Stay updated with emerging frontend technologies and frameworks.
+Required Skills
+Proficient in HTML, CSS, JavaScript, and React.js.
+Strong knowledge of CSS frameworks such as Material UI, Shadcn, Tailwind CSS, and Bootstrap.
+Experience with responsive design and cross-browser compatibility.
+Good understanding of version control systems (e.g., Git).
+Knowledge of RESTful APIs integration.
+Familiarity with frontend build tools (Webpack, Vite, etc.) is a plus.
+Kindly fill out the form if your interested & work with us.
+We will get back to you if your profile is shortlisted.
+
+All the best & Cheers ✌️
