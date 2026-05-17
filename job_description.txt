@@ -1,29 +1,42 @@
-We are hiring  Frontend Developer  for our 𝑭𝒓𝒐𝒏𝒕𝒍𝒊𝒏𝒆𝒔 𝑬𝒅𝒖𝑻𝒆𝒄𝒉 𝑷𝒓𝒊𝒗𝒂𝒕𝒆 𝑳𝒊𝒎𝒊𝒕𝒆𝒅.
+Job Description -
 
-Position: Frontend Developer
-Experience: Min 0-1+ years in Frontend developer
-Location: Somajiguda, Hyderabad.
-Work Type: WFO
-Job Type: Full-time
-Timings: 10am-7pm 
-Working Days: 6 days, Sunday will be week off
+Job Summary
+• This role is responsible for designing software systems running on multiple platform types, including writing and execution of test plans, debugging, and testing scripts and tools. The role develops, codes, and implements software components, modules, or applications using appropriate programming languages and technologies. The role gathers and analyzes user and system requirements to guide software design and development processes accurately.
+
+Responsibilities
+• Executes installation, configuration, testing and maintenance of operating systems, application software, and system management tools.
+• Develops and maintains software components, modules, or applications using appropriate programming languages and technologies.
+• Integrates software systems with existing infrastructure, databases, APIs, and third-party services to ensure seamless data flow and functionality.
+• Codes and programs enhancements, updates, and changes for portions and subsystems of systems software, including operating systems, compliers, networking, utilities, databases, and Internet-related tools.
+• Executes established test plans and protocols for assigned portions of code; identifies, logs, and debugs assigned issues.
+• Participates in concept design discussions, gathers system level requirements, clarifies interfaces, provides feedbacks into future design requirements to help develop robust and high-performance solutions.
+• Improves the whole lifecycle of services from inception and design, through deployment, operation, and refinement.
+• Provides support services through activities such as system design consulting, developing software platforms and frameworks, capacity planning, and launch reviews.
+• Develops understanding of and relationship with internal and outsourced development partners on software systems design and development.
+• Participates as a member of project team of other software systems engineers to develop reliable, cost effective and high quality solutions for low to moderately- complex products.
 
 
-Key Responsibilities
-Develop and maintain responsive web interfaces using HTML, CSS, JavaScript, and React.js.
-Optimize application performance for maximum speed and scalability.
-Write clean, maintainable, and reusable code following best practices.
-Integrate APIs and ensure smooth data flow between frontend and backend systems.
-Troubleshoot and debug frontend-related issues.
-Stay updated with emerging frontend technologies and frameworks.
-Required Skills
-Proficient in HTML, CSS, JavaScript, and React.js.
-Strong knowledge of CSS frameworks such as Material UI, Shadcn, Tailwind CSS, and Bootstrap.
-Experience with responsive design and cross-browser compatibility.
-Good understanding of version control systems (e.g., Git).
-Knowledge of RESTful APIs integration.
-Familiarity with frontend build tools (Webpack, Vite, etc.) is a plus.
-Kindly fill out the form if your interested & work with us.
-We will get back to you if your profile is shortlisted.
 
-All the best & Cheers ✌️
+Education & Experience Recommended
+• Four-year Degree in Computer Science, Information Systems, or any other related discipline or commensurate work experience or demonstrated competence.
+• Typically has 0-2 years of work experience, preferably in systems engineering, computer programming language, or a related field.
+ 
+Knowledge & Skills
+• Computer Hardware knowledge.
+• Operating Systems and Application installation and customization.
+• Application Programming Interface (API)
+• Automation
+• C++ (Programming Language)
+• Computer Science
+• Debugging
+• Linux
+• Python (Programming Language)
+• Software Development
+• Software Engineering
+
+Cross-Org Skills
+• Effective Communication
+• Results Orientation
+• Learning Agility
+• Digital Fluency
+
