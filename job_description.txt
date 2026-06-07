@@ -1,16 +1,24 @@
- Role - Apprentice
+ Choosing Capgemini means choosing a company where you will be empowered to shape your career in the way you’d like, where you’ll be supported and inspired by a collaborative community of colleagues around the world, and where you’ll be able to reimagine what’s possible. Join us and help the world’s leading organizations unlock the value of technology and build a more sustainable, more inclusive world.
 
-Duration - 12 Months
+Your Role
+ Design, develop, and maintain robust, scalable, and secure Java-based applications
+Build RESTful APIs and backend services using Spring Boot / Spring Framework
+Develop responsive and interactive user interfaces using React.js and/or Angular
+Collaborate with cross-functional teams including UI/UX designers, product managers, and QA
+Integrate frontend components with backend services
+Write clean, efficient, and well-documented code following best practices
+Perform code reviews and participate in agile development processes
+Troubleshoot, debug, and upgrade existing systems
+Ensure application performance, quality, and responsiveness
+Your Profile
+Proficient in Java, Spring boot and related technologies
+Familiarity with API Management and documentation tools (Swagger, Postman)
+Knowledge of databases (SQL No SQL) and data modelling
+Understanding of CI/CD pipelines and DevOps practice
+Strong analytical and problem-solving skills
+What will you love working at Capgemini?
+ 
 
-Eligibility- Freshers only with No Provident Fund/UAN Account
-
-The Team 1-
-The Team of Apprentice, Data Operations work on various research reports and company documents to collect information & generate meaningful consensus from the collected data. This effort is coupled with real time monitoring of global industry trade publications and websites/news aggregators. Different Teams under Enterprise Data Organization includes Fundamentals, FILINGS & SOURCING, People Data, Transactions (M&A and Capital Market Data), Private markets, and many more.
-
-Responsibilities:
-• High quality data (Financial) collection, analysis, extraction and entering the data in work tools as per guideline specifications for assigned vertical.
-• Understand the working of the dataset, be aware of the workflows and have strong working knowledge of work tools.
-• Deliver on predefined individual and team targets including delivering outcomes with quality and excellence.
-• Troubleshoots problems or issues and support team in enhancing the workflow/processes for department.
-• Timely response to mails from coworkers and managers. Be proactive and demonstrates aptitude for new learnings.
-
+You can shape your career with us. We offer a range of career paths and internal opportunities within Capgemini group. You will also get personalized career guidance from our leaders.
+You will get comprehensive wellness benefits including health checks, telemedicine, insurance with top-ups, elder care, partner coverage or new parent support via flexible work.
+At Capgemini, you can work on cutting-edge projects in tech and engineering with industry leaders or create solutions to overcome societal and environmental challe
